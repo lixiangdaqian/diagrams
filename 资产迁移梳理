@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T03:58:08.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ti0vhCwHCNV_VcAmSwYP" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T06:00:53.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="wYbTqNrKCJs2goSPdreT" version="15.5.8" type="github">
   <diagram id="sI3f6Sw-oGCzD1azmL-p" name="Page-1">
     <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="160" width="170" height="350" as="geometry" />
+        </mxCell>
         <mxCell id="qfRhS9WbqVwAUMEUkKui-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="170" width="370" height="340" as="geometry" />
         </mxCell>
@@ -48,6 +51,48 @@
         </mxCell>
         <mxCell id="qfRhS9WbqVwAUMEUkKui-16" value="增量修改" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-17" value="视频/图文点赞数-mediaid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="760" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-19" value="视频/图文点赞数-sportsID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="310" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-21" value="个人主页H5索引" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-22" value="视频沉浸式连播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-25" value="索引使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-26" value="个人主页app+h5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="770" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-28" value="点赞数使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-31" value="输出接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-32" value="点赞数使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qfRhS9WbqVwAUMEUkKui-33" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="780" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
