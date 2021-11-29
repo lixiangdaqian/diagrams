@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T09:44:43.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="8nbJTcwY4w8GSjVDyPua" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T09:50:32.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="FJwVhvy4lWRxDLgpAOO9" version="15.5.8" type="github">
   <diagram id="LG2WF2RvglRewsPvHwB6" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w5vEDjfAuw3C4fb2oxAN-14" value="subject" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="590" width="180" height="160" as="geometry" />
+          <mxGeometry x="190" y="562" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="w5vEDjfAuw3C4fb2oxAN-15" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="w5vEDjfAuw3C4fb2oxAN-14" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -119,8 +119,10 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5vEDjfAuw3C4fb2oxAN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w5vEDjfAuw3C4fb2oxAN-18" target="w5vEDjfAuw3C4fb2oxAN-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w5vEDjfAuw3C4fb2oxAN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w5vEDjfAuw3C4fb2oxAN-18" target="w5vEDjfAuw3C4fb2oxAN-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w5vEDjfAuw3C4fb2oxAN-31" value="话题中增加&lt;br&gt;activityID字段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="w5vEDjfAuw3C4fb2oxAN-27" vertex="1" connectable="0">
           <mxGeometry x="-0.1733" relative="1" as="geometry">
@@ -128,7 +130,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w5vEDjfAuw3C4fb2oxAN-33" value="manager : 负责人" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
-          <mxGeometry x="560" y="730" width="150" height="30" as="geometry">
+          <mxGeometry x="560" y="736" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -288,6 +290,12 @@
         </mxCell>
         <mxCell id="FG0yiC1ciWNTzW22SV-A-19" value="submit_num:投稿数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="720" y="860" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG0yiC1ciWNTzW22SV-A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FG0yiC1ciWNTzW22SV-A-20" target="w5vEDjfAuw3C4fb2oxAN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG0yiC1ciWNTzW22SV-A-20" value="征稿类型： string，1视频2图文3动态，多个用英文,隔开" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="749.5" width="310" height="40.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
