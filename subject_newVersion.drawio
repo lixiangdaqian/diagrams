@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T06:49:10.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="15.5.8" etag="V8o-yVt7dbRh7d2TlLCN" type="github"><diagram id="_h1MAt-I4YNS_zPpNKs3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-23T07:01:35.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="O7vWU5WjD_r8ZowlB2H_" version="15.5.8" type="github">
+  <diagram id="_h1MAt-I4YNS_zPpNKs3" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-3" value="xsearch变动点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="290" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-4" value="1.新增新版热度字段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-3">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-5" value="2.id扩充成包含社区，资讯和视频格式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-3">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-6" value="3.同步到xsearch内容新增资讯视频+新版热度字段" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-3">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-11" value="4.增加新版热度字段对应的召回策略配置" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-3">
+          <mxGeometry y="104" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-7" value="subject变动点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="137" width="410" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-8" value="1.热度计算公式变更" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-7">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-9" value="2.增加消费资讯+视频+同步到xsearch+同步flink" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-7">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-10" value="3.召回接口优化，支持召回新版热度帖子，字段ID针对原先的帖子id做兼容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-7">
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-12" value="社区管理后台接口" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="260" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-13" value="1.金刚位和资源位配置做在社区？" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-12">
+          <mxGeometry y="26" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-14" value="2.操作日志？" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-12">
+          <mxGeometry y="56" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-15" value="Item 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-12">
+          <mxGeometry y="86" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-16" value="社区app端" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="490" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-17" value="1.从subject获取id列表，填充详情，置顶ID，资源位？后者看做在subject还是社区" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-16">
+          <mxGeometry y="26" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNpO2fzQAiULQIDNyEv-18" value="2." style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PCNpO2fzQAiULQIDNyEv-16">
+          <mxGeometry y="56" width="490" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
