@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T07:19:26.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="9wpaEo5GoVwPdf58iwQZ" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T07:21:34.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="zFuPRxQlU0x5ZjyMdjG1" version="16.0.3" type="github">
   <diagram id="Ehf6K-8b_N_PcfSkCcOT" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="2IMKjfMsFiyMc3P6ZTSg-40" value="管理后台拉取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="277" y="875" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2IMKjfMsFiyMc3P6ZTSg-41" value="人工重试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2IMKjfMsFiyMc3P6ZTSg-41" value="人工手动重试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="277" y="965" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2IMKjfMsFiyMc3P6ZTSg-56" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2IMKjfMsFiyMc3P6ZTSg-5" target="2IMKjfMsFiyMc3P6ZTSg-12">
