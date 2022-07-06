@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T02:47:46.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="NpT3Mx5MdsJ6qxYizszf" version="17.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T03:20:19.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="D-u4euZminTh0y_tTMKk" version="17.2.6" type="github">
   <diagram id="Lr0cav-XPf76D56cU3gr" name="Page-1">
     <mxGraphModel dx="2206" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="btpLiM1xGfyTe02xs8fI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="btpLiM1xGfyTe02xs8fI-22" target="btpLiM1xGfyTe02xs8fI-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="btpLiM1xGfyTe02xs8fI-22" value="url上传介质" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="btpLiM1xGfyTe02xs8fI-22" value="url OR 分块 上传介质" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="881" width="120" height="53" as="geometry" />
         </mxCell>
         <mxCell id="btpLiM1xGfyTe02xs8fI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="btpLiM1xGfyTe02xs8fI-23" target="btpLiM1xGfyTe02xs8fI-26">
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="btpLiM1xGfyTe02xs8fI-62" value="&lt;h1&gt;写db原因&lt;/h1&gt;&lt;p&gt;防止重复放号，重复生产视频&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="400" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btpLiM1xGfyTe02xs8fI-63" value="&lt;h1&gt;写redis原因&lt;/h1&gt;&lt;p&gt;防止穿透到db对db造成压力&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="170" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
